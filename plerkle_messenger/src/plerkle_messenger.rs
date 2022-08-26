@@ -42,7 +42,7 @@ pub async fn select_messenger(config: MessengerConfig) -> Result<Box<dyn Messeng
     }
 }
 
-#[derive(Deserialize, Debug, PartialEq)]
+#[derive(Deserialize, Debug, PartialEq, Clone)]
 pub enum MessengerType {
     Redis,
     Pulsar,
@@ -55,7 +55,7 @@ impl Default for MessengerType {
     }
 }
 
-#[derive(Deserialize, Debug, Default, PartialEq)]
+#[derive(Deserialize, Debug, Default, PartialEq, Clone)]
 pub struct MessengerConfig {
     pub messenger_type: MessengerType,
     pub connection_config: Dict,
