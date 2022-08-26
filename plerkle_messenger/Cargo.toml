@@ -30,4 +30,4 @@ redis = ["dep:redis"]
 pulsar = ["dep:metaplex-pulsar"]
 
 [dev-dependencies]
-tokio = { version = "1.20.1", features = ["full"] }
+tokio = { version = "1.14.1", features = ["full"] }
