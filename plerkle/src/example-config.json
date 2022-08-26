@@ -1,5 +1,5 @@
 {
-    "libpath": "/path/to/release/libsolana_geyser_plugin_nft.so",
+    "libpath": "/home/cavey/GenesysGo/digital-asset-validator-plugin/target/release/libplerkle.so",
     "accounts_selector" : {
         "owners" : [
             "metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s",

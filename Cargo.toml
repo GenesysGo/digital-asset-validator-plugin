@@ -4,3 +4,6 @@ members = [
     "plerkle",
     "plerkle_serialization"
 ]
+exclude = [
+    "digital-asset-rpc-infrastructure"
+]
